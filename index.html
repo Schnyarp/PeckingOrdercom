@@ -1,0 +1,505 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PeckingOrder.com — Premium Domain For Sale</title>
+  <meta name="description" content="PeckingOrder.com — premium domain ideal for ranking platforms, leaderboards, review & recommendation sites, priority management tools, and analytics dashboards. Submit an offer to purchase." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://peckingorder.com/" />
+  <meta name="theme-color" content="#0b4f6c" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="PeckingOrder.com — Premium Domain For Sale" />
+  <meta property="og:description" content="PeckingOrder.com — brandable domain for leaderboards, ranking platforms, recommendation engines and priority management tools. Contact domain@peckingorder.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://peckingorder.com/" />
+  <meta property="og:image" content="https://peckingorder.com/og-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="PeckingOrder.com — Premium Domain For Sale" />
+  <meta name="twitter:description" content="PeckingOrder.com — brandable domain for leaderboards, ranking platforms, recommendation engines and priority management tools." />
+  <meta name="twitter:image" content="https://peckingorder.com/og-image.png" />
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="alternate" hreflang="en" href="https://peckingorder.com/" />
+  <meta name="distribution" content="global" />
+  <meta name="rating" content="general" />
+
+  <style>
+    :root{
+      --max-width:1120px;
+      --bg-1:#f8fbfc;
+      --bg-2:#ffffff;
+      --card:#ffffff;
+      --ink:#072b2d;
+      --muted:#587078;
+      --accent:#ff7a59;   /* warm accent for highlights and CTAs */
+      --accent-2:#1ea7c8; /* cool accent */
+      --node:#f1f8fa;
+      --radius:16px;
+      --shadow: 0 26px 84px rgba(6,12,18,0.06);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0}
+    body{
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:36px 20px;
+      color:var(--ink);
+      background:
+        radial-gradient(700px 240px at 12% 10%, rgba(30,167,200,0.02), transparent 12%),
+        linear-gradient(180deg,var(--bg-1) 0%, var(--bg-2) 100%);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      overflow-x:hidden;
+    }
+
+    /* Look chosen: "Ranking Diagram" —
+       a clean, professional layout with a soft hierarchical-diagram background:
+       - subtle connected-node pattern suggesting ranks/leaderboards
+       - warm accent for CTAs and indicators
+       - readable card UI for offers and details
+    */
+    .bg { position:fixed; inset:0; z-index:0; pointer-events:none; overflow:visible; }
+
+    .diagram-band {
+      position:fixed;
+      left:50%;
+      top:8%;
+      transform:translateX(-50%);
+      width:1100px;
+      height:300px;
+      z-index:0;
+      border-radius:18px;
+      pointer-events:none;
+      background:
+        linear-gradient(180deg, rgba(255,255,255,0.98), rgba(246,252,253,0.98)),
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1100' height='300'><g stroke='%23000000' stroke-opacity='0.03' fill='none' stroke-width='1'><circle cx='140' cy='120' r='18' fill='%23f1f8fa'/><circle cx='340' cy='80' r='12' fill='%23f1f8fa'/><circle cx='540' cy='160' r='22' fill='%23f1f8fa'/><circle cx='760' cy='100' r='14' fill='%23f1f8fa'/><path d='M158 120L328 86M356 92L526 158M362 86L758 100' /></g></svg>");
+      background-size:cover;
+      mix-blend-mode:screen;
+      opacity:0.95;
+    }
+
+    .floaters { position:fixed; inset:0; z-index:0; pointer-events:none; overflow:visible; }
+
+    .node {
+      position:absolute;
+      width:88px;
+      height:88px;
+      border-radius:14px;
+      background:var(--node);
+      border:1px solid rgba(6,12,18,0.03);
+      box-shadow: 0 10px 28px rgba(6,12,18,0.04);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:var(--muted);
+      font-weight:800;
+      font-size:13px;
+      opacity:0.9;
+    }
+
+    @keyframes floaty {
+      0% { transform: translateY(0) rotate(-4deg); }
+      50% { transform: translateY(-12px) rotate(6deg); }
+      100% { transform: translateY(0) rotate(-4deg); }
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      padding:34px;
+      border-radius:18px;
+      background: linear-gradient(180deg,#ffffff,#fbfeff);
+      box-shadow: var(--shadow);
+      border:1px solid rgba(6,12,18,0.03);
+      position:relative;
+      z-index:2;
+    }
+
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:12px;
+    }
+
+    .brand{ display:flex; gap:14px; align-items:center; }
+    .logo{
+      width:92px;
+      height:92px;
+      border-radius:14px;
+      background: linear-gradient(135deg,var(--accent-2), var(--accent));
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#052827;
+      font-weight:900;
+      font-size:20px;
+      box-shadow: 0 12px 36px rgba(6,12,18,0.06);
+      flex-shrink:0;
+    }
+
+    h1{ margin:0; font-size:26px; color:var(--ink); }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:14px; max-width:760px; }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:28px;
+      align-items:start;
+      margin-top:18px;
+    }
+
+    .hero {
+      padding:22px;
+      border-radius:14px;
+      color:var(--ink);
+      background: linear-gradient(90deg, rgba(30,167,200,0.02), rgba(255,122,89,0.01));
+      border:1px solid rgba(6,12,18,0.03);
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .hero h2{ margin:0 0 8px 0; font-size:20px; color:var(--accent-2); }
+    .hero p{ margin:0; color:var(--muted); }
+
+    .panel {
+      background: var(--card);
+      color:var(--ink);
+      padding:22px;
+      border-radius:12px;
+      box-shadow: 0 10px 34px rgba(6,12,18,0.06);
+      border: 1px solid rgba(6,12,18,0.02);
+    }
+
+    h2.section { margin-top:0; font-size:18px; color:var(--accent); }
+    .features ul{ margin:0; padding-left:18px; color:var(--muted); }
+    .features li{ margin-bottom:10px; }
+
+    .samples { display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; }
+    .sample {
+      min-width:140px;
+      padding:12px;
+      border-radius:12px;
+      background: linear-gradient(180deg,#fff,#fbfbfb);
+      border:1px solid rgba(6,12,18,0.03);
+      color:var(--muted);
+      font-weight:700;
+      text-align:center;
+    }
+
+    .cta-row{ display:flex; gap:12px; margin-top:18px; flex-wrap:wrap; align-items:center; }
+    .btn{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 16px;
+      border-radius:999px;
+      font-weight:800;
+      cursor:pointer;
+      text-decoration:none;
+      border:0;
+      color:#052827;
+    }
+    .btn-primary{
+      background: linear-gradient(90deg,var(--accent), var(--accent-2));
+      color:#052827;
+      box-shadow: 0 10px 30px rgba(6,12,18,0.12);
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid rgba(6,12,18,0.06);
+      color:var(--muted);
+    }
+
+    .contact-card{
+      position:sticky;
+      top:32px;
+      align-self:start;
+      background: linear-gradient(180deg,#ffffff,#fbfbfb);
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(6,12,18,0.03);
+      box-shadow: 0 8px 26px rgba(6,12,18,0.035);
+      max-width:360px;
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--accent); }
+    .contact-email, .contact-email a{
+      white-space:nowrap;
+      display:inline-block;
+      font-weight:800;
+      color:var(--accent-2);
+      word-break: normal;
+      font-size:0.98rem;
+      text-decoration:none;
+    }
+
+    form label{ display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+    form input, form textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid rgba(6,12,18,0.06);
+      background:#fff;
+      color:var(--ink);
+      font-size:14px;
+      margin-bottom:12px;
+    }
+    form textarea{ min-height:110px; resize:vertical; }
+
+    .resources {
+      margin-top:14px;
+      font-size:13px;
+      color:var(--muted);
+      border-top:1px dashed rgba(6,12,18,0.04);
+      padding-top:12px;
+    }
+
+    .resources a { color:var(--accent-2); font-weight:700; text-decoration:none }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center }
+
+    @media (max-width:980px){
+      .grid{ grid-template-columns: 1fr; gap:18px; }
+      .contact-card{ position:relative; top:auto; width:100%; max-width:none; }
+      .container{ padding:24px; }
+      .diagram-band, .floaters { display:none; }
+      .logo{ width:76px; height:76px; border-radius:12px; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "url":"https://peckingorder.com",
+        "name":"PeckingOrder.com",
+        "description":"PeckingOrder.com — premium domain for ranking platforms, leaderboards, recommendation engines, priority management tools and analytics dashboards."
+      },
+      {
+        "@type":"Organization",
+        "name":"PeckingOrder.com",
+        "url":"https://peckingorder.com",
+        "contactPoint":[
+          {
+            "@type":"ContactPoint",
+            "contactType":"sales",
+            "email":"domain@peckingorder.com"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="diagram-band" aria-hidden="true"></div>
+    <div class="floaters" id="floaters" aria-hidden="true"></div>
+  </div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">PO</div>
+        <div>
+          <h1 id="main-heading">PeckingOrder.com</h1>
+          <p class="lead">Premium domain for ranking platforms, leaderboards, recommendation engines and priority-management tools.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@peckingorder.com">domain@peckingorder.com</a></div>
+      </div>
+    </header>
+
+    <section class="grid" aria-label="Main content">
+      <div>
+        <div class="hero" role="note" aria-live="polite" aria-labelledby="hero-title">
+          <div>
+            <h2 id="hero-title">A name that communicates rank and clarity</h2>
+            <p>PeckingOrder.com reads as an authoritative name for anything that ranks, surfaces top items, or manages priority — great for leaderboards, discovery & recommender apps, analytics dashboards and priority workflows.</p>
+
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+              <a class="btn btn-ghost" href="mailto:domain@peckingorder.com?subject=Domain%20Offer%20-%20PeckingOrder.com">Email Now</a>
+            </div>
+          </div>
+
+          <div style="min-width:220px; text-align:center">
+            <div style="color:var(--muted); font-size:13px">Domain</div>
+            <div style="font-weight:900; font-size:18px; margin-top:6px">PeckingOrder.com</div>
+            <div style="color:var(--muted); font-size:13px; margin-top:8px">Serious offers only.</div>
+          </div>
+        </div>
+
+        <article class="panel" aria-labelledby="why-title" style="margin-top:18px">
+          <h2 id="why-title" class="section">Why PeckingOrder.com?</h2>
+          <p class="lead">A memorable .com that immediately signals ranking, priority and authority — suitable for leaderboards, review sites, trending & discovery platforms, or enterprise prioritization tools.</p>
+
+          <div class="features" style="margin-top:12px">
+            <ul>
+              <li>Instant category clarity — communicates ranking and priority</li>
+              <li>Fits consumer-facing leaderboards, recommendation engines, analytics dashboards and B2B workflow tools</li>
+              <li>Brandable across web, mobile, dashboards and marketing</li>
+            </ul>
+          </div>
+
+          <div class="samples" aria-hidden="false">
+            <div class="sample">Leaderboards & Rankings</div>
+            <div class="sample">Recommendation & Discovery</div>
+            <div class="sample">Priority / Workflow Tools</div>
+            <div class="sample">Review & Comparison Platforms</div>
+          </div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p class="lead">PeckingOrder.com is a premium domain available for transfer.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Well-suited to founders, product teams, analytics startups and platform builders</li>
+            <li>Useful for integrations with analytics providers, recommendation engines, partner APIs and dashboards</li>
+            <li>We use escrow to ensure a smooth, secure transfer for both buyer and seller.</li>
+          </ul>
+
+          <div class="resources" aria-labelledby="resources-title">
+            <div id="resources-title" style="font-weight:800; margin-bottom:8px">Helpful resource</div>
+            <div><a href="https://corelli.com/domains.html" target="_blank" rel="noopener noreferrer" style="color:var(--accent-2)">How To Choose A Domain Name</a></div>
+          </div>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer — this form opens your email client with the details prefilled. Or email <a href="mailto:domain@peckingorder.com" class="contact-email">domain@peckingorder.com</a>.</p>
+
+          <form id="inquiryForm" onsubmit="handleSubmit(event)" aria-label="Domain offer form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="offer">Your offer (USD)</label>
+            <input id="offer" name="offer" type="text" placeholder="Enter your offer (USD)" required />
+
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" placeholder="Your company or organization" />
+
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="Your country" required />
+
+            <label for="phone">Phone number (optional)</label>
+            <input id="phone" name="phone" type="tel" />
+
+            <label for="message">Message (questions, timeline, escrow preference)</label>
+            <textarea id="message" name="message" placeholder="Hi — I'm submitting an offer for PeckingOrder.com. Please share transfer instructions and next steps."></textarea>
+
+            <button class="btn btn-primary" type="submit" style="width:100%; margin-top:6px">Send Offer</button>
+          </form>
+
+          <footer style="margin-top:10px; text-align:left; color:var(--muted); font-size:13px">
+            Prefer direct email? <a href="mailto:domain@peckingorder.com" style="color:var(--accent-2)">domain@peckingorder.com</a>
+          </footer>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 PeckingOrder.com. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // soft floating nodes to echo the diagram motif (data-URI SVGs)
+    (function placeNodes(){
+      const layer = document.getElementById('floaters');
+      if(!layer) return;
+      const svgs = {
+        trophy: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M16 12h32v10a10 10 0 0 1-10 10H26a10 10 0 0 1-10-10V12z' fill='%23FFF5EB'/><path d='M22 42h20v6H22z' fill='%23FFE1C2'/></svg>`),
+        chevron: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><path d='M12 18l12 12 12-12' stroke='%23000000' stroke-opacity='0.06' stroke-width='3' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>`),
+        star: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'><path d='M24 6l4.8 10.2L40 18l-10 7.6L28 40l-4-8.4L16 18l11.2-1.8L24 6z' fill='%23FFD57A'/></svg>`),
+        medal: encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='28' r='12' fill='%23E9FBFF' stroke='%23000000' stroke-opacity='0.03'/><path d='M20 44l6 10 6-10' fill='%23FFF'/></svg>`)
+      };
+
+      const items = [
+        {svg:svgs.trophy, left:'12%', top:'20%', size:86, dur:9200},
+        {svg:svgs.chevron, left:'78%', top:'16%', size:72, dur:11000},
+        {svg:svgs.star, left:'48%', top:'66%', size:72, dur:10000},
+        {svg:svgs.medal, left:'84%', top:'54%', size:64, dur:12000}
+      ];
+
+      items.forEach(it=>{
+        const el = document.createElement('div');
+        el.style.position = 'absolute';
+        el.style.left = it.left;
+        el.style.top = it.top;
+        el.style.width = it.size + 'px';
+        el.style.height = it.size + 'px';
+        el.style.backgroundImage = `url("data:image/svg+xml;utf8,${it.svg}")`;
+        el.style.backgroundSize = 'contain';
+        el.style.backgroundRepeat = 'no-repeat';
+        el.style.opacity = 0.06 + Math.random()*0.18;
+        el.style.willChange = 'transform,opacity';
+        el.style.animation = `floaty ${it.dur}ms ease-in-out ${Math.random()*1200}ms infinite`;
+        layer.appendChild(el);
+      });
+    })();
+
+    // Compose mailto and open user's email client with form contents
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const offer = document.getElementById('offer').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const country = document.getElementById('country').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Domain Offer - PeckingOrder.com');
+      const bodyText =
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Company: ${company || '(not provided)'}\n` +
+        `Offer (USD): ${offer}\n` +
+        `Country: ${country}\n` +
+        `Phone: ${phone || '(not provided)'}\n\n` +
+        `Message:\n${message}\n\n---\nSent from PeckingOrder.com offer form`;
+
+      window.location.href = `mailto:domain@peckingorder.com?subject=${subject}&body=${encodeURIComponent(bodyText)}`;
+    }
+
+    document.getElementById('inquiryForm').addEventListener('submit', handleSubmit);
+
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const form = document.getElementById('inquiryForm');
+      if(window.innerWidth < 900){
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        form.querySelector('input')?.focus();
+      } else {
+        const subject = encodeURIComponent('Domain Offer - PeckingOrder.com');
+        const body = encodeURIComponent('Hi — I would like to make an offer for PeckingOrder.com. Please reply with transfer instructions and next steps.');
+        window.location.href = `mailto:domain@peckingorder.com?subject=${subject}&body=${body}`;
+      }
+    });
+  </script>
+</body>
+</html>
